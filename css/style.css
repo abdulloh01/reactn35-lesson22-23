@@ -4,7 +4,12 @@
 }
 
 .blog__main {
+  padding-top: 92px;
   margin-bottom: 130px;
+}
+
+.environment {
+  margin-top: 130px;
 }
 
 .pricing__main {

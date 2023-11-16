@@ -1,0 +1,28 @@
+.nav{
+    height: 92px;
+    background-color: #1C1E53 !important;
+    transition: 0.5s;
+}
+
+.nav__links{
+    a{
+        color: #BBBBCB;
+        &:hover{
+            color: white;
+        }
+    }
+    .active{
+        color: white !important;
+    }
+}
+
+.nav__btn{
+    max-width: 230px !important;
+    width: 230px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.navbar-shrink{
+    height: 72px;
+}

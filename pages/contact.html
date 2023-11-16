@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.min.css">
+</head>
+<body>
+    
+    <nav class="navbar nav-2 navbar-expand-lg bg-body-tertiary fixed-top" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="../assets/images/Logo.svg" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-start"  tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                <img src="./assets/images/Logo.svg" alt="">
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body nav__offcanvas">
+              <ul class="navbar-nav gap-4 align-items-center justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item nav__links">
+                  <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item nav__links">
+                  <a class="nav-link " href="./about.html">About us</a>
+                </li>
+                <li class="nav-item nav__links">
+                    <a class="nav-link" href="./pricing.html">Pricing</a>
+                </li>
+                  <li class="nav-item nav__links">
+                    <a class="nav-link" href="./work.html">Work</a>
+                </li>
+                <li class="nav-item nav__links">
+                    <a class="nav-link" href="./blog.html">Blog</a>   
+                </li>
+                <li class="nav-item">
+                    <a href="#">
+                        <button class="btn btn-outline-secondary nav__btn rounded-pill" type="submit">Contact us</button>
+                    </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <main class="contact__main">
+      <section class="form__s">
+        <div class="form__sec container">
+           <div class="form__header">
+            <h1>
+              Contact Us
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+            </p>
+           </div>
+           <div class="form">
+            <form class="row g-3">
+              <div class="col-md-6 mb-4">
+                <label for="inputEmail4" class="form-label">Name</label>
+                <input type="text" placeholder="Enter your name" class="form-control" id="inputEmail4">
+              </div>
+              <div class="col-md-6 mb-4">
+                <label for="inputPassword4" class="form-label">Email</label>
+                <input type="email" placeholder="Enter your Emial" class="form-control" id="inputPassword4">
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="inputCity" class="form-label">Subject</label>
+                <input type="text" placeholder="Provide context" class="form-control" id="inputCity">
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="inputZip" class="form-label">Subject</label>
+                <input type="text" placeholder="Select Subject" class="form-control" id="inputZip">
+              </div>
+              <div class="form-floating mb-4">
+                <textarea class="form-control" placeholder="Write your  question here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Write your  question here</label>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary form__btn rounded-pill">Send Messege  </button>
+              </div>
+            </form>
+           </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="footer">
+      <div class="footer__sec container">
+          <div class="footer__sec1">
+              <img src="../assets/images/Logo.svg" alt="footer logo">
+              <h5>
+                  We are always open to discuss your project and improve your online presence.
+              </h5>
+              <div class="footer__contacts">
+                  <span class="email">
+                      <p>
+                          Email me at
+                      </p>
+                      <a href="mailto:aboulloh04062006@gmail.com">abdulloh04062008@gmial.com</a>
+                  </span>
+                  <span class="tell">
+                      <p>
+                          Call us
+                      </p>
+                      <a href="tel:+998998289056">+998 99 828 90 56</a>
+                  </span>
+              </div>
+          </div>
+          <div class="footer__sec2">
+              <h3>
+                  Lets Talk!
+              </h3>
+              <p>
+                  We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.
+              </p>
+              <a href="#">
+                  <img class="me-4" src="../assets/images/facebook.svg" alt="facebook icon">
+              </a>
+              <a href="#">
+                  <img class="me-4" src="../assets/images/twitter.svg" alt="twitter icon">
+              </a>
+              <a href="#">
+                  <img class="me-4" src="../assets/images/inta.svg" alt="intagram icon">
+              </a>
+              <a href="#">
+                  <img src="../assets/images/linkedin.svg" alt="linkedin icon">
+              </a>
+          </div>
+      </div>
+  </footer>
+  
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

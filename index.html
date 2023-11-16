@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 22 | Homework</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    <nav class="navbar nav-2 navbar-expand-lg bg-body-tertiary fixed-top" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/images/Logo.svg" alt="logo">
+          </a>
+          <button class="navbar-toggler humburger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                <img src="./assets/images/Logo.svg" alt="">
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav gap-4 align-items-center justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item nav__links">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item nav__links">
+                  <a class="nav-link" href="./pages/about.html">About us</a>
+                </li>
+                <li class="nav-item nav__links">
+                    <a class="nav-link" href="./pages/pricing.html">Pricing</a>
+                </li>
+                  <li class="nav-item nav__links">
+                    <a class="nav-link" href="./pages/work.html">Work</a>
+                </li>
+                <li class="nav-item nav__links">
+                    <a class="nav-link" href="./pages/blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./pages/contact.html">
+                        <button class="btn btn-outline-secondary nav__btn rounded-pill" type="submit">Contact us</button>
+                    </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <main class="main">
+        <section class="home">
+            <div class="home__sec container d-flex justify-content-between">
+                <div class="home__header">
+                    <h1 class="fw-semibold lh-base text-white mb-4">
+                        Building stellar websites for early startups
+                    </h1>
+                    <h4 class="fs-6  fw-normal lh-base text-white mb-5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                    </h4>
+                    <div class="home__btn d-flex flex-column flex-lg-row flex-md-row flex-xl-row flex-xxl-row gap-3 align-items-center">
+                        <button class="btn btn-warning py-3 px-5 rounded-pill me-md-5 me-lg-5 me-xl-5 me-xxl-5 fs-6 text-dark w-50 mb-sm-3">
+                            View our work
+                        </button>
+                        <a class=" text-decoration-none d-flex align-items-center gap-3 text-white" href="#">
+                            View Pricing
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="12" viewBox="0 0 25 12" fill="none">
+                                <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" fill="#F4F6FC"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__img d-none d-sm-none d-md-none d-xl-block d-xxl-block d-lg-none">
+                    <img src="./assets/images/home-img.png" alt="home img">
+                </div>
+            </div>
+        </section>
+        <section class="projects mt-5 mb-5">
+            <div class="projects__sec container">
+                <div class="project__header mb-5 d-flex justify-content-between mb-3">
+                    <h2>
+                        View our projects
+                    </h2>
+                    <a class=" text-decoration-none d-flex align-items-center gap-3 text-black" href="#">
+                        View More
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="12" viewBox="0 0 25 12" fill="none">
+                            <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" fill="black"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="row d-flex flex-column  flex-xxl-row gap-3 justify-content-between">
+                    <div class="d-inline-block col-lg-7  position-relative big__img overflow-hidden">
+                        <img class="mx-auto w-100 h-100  m-lg-0" src="./assets/images/projects-img1.png" alt="">
+                        <img class="position-absolute hover__img1" src="./assets/images/hover.png" alt="">
+                    </div>
+                    <div class="projects__2img col-lg-4 p-lg-0">
+                        <div class="d-inline-block position-relative small__img overflow-hidden">
+                            <img class="w-100 mb-3 mx-auto" src="./assets/images/projects-img2.png" alt="">
+                            <div class="hover__2 ">
+                                <h3 class="fs-2 w-75 text-white">
+                                    Unisaas Website Design
+                                </h3>
+                                <a class=" text-decoration-none fs-5 text-warning" href="#">
+                                    View More
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="12" viewBox="0 0 25 12" fill="none">
+                                        <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" fill="#FCD980"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d-inline-block position-relative small__img overflow-hidden">
+                            <img class="w-100 mx-auto" src="./assets/images/projects-img3.png" alt="">
+                            <div class="hover__2 ">
+                                <h3 class="fs-2 w-75 text-white">
+                                    Unisaas Website Design
+                                </h3>
+                                <a class=" text-decoration-none fs-5 text-warning" href="#">
+                                    View More
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="12" viewBox="0 0 25 12" fill="none">
+                                        <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" fill="#FCD980"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section class="features">
+            <div class="features__sec container">
+                <div class="features__header">
+                    <h5 class="fw-normal text-center mb-2">
+                        Features
+                    </h5>
+                    <h2 class="text-center mx-auto mt-1 mb-5 fw-semibold">
+                        Design that solves problems, one product at a time
+                    </h2>
+                </div>
+                <div class="features__row row   ">
+                    <div class="card features__card mx-auto mb-3 d-inline-block">
+                        <div class="card-body d-inline-block">
+                          <h5 class="card-title d-inline-block">Uses Client First</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                      <div class="card features__card mx-auto mb-3 d-inline-block">
+                        <div class="card-body d-inline-block">
+                          <h5 class="card-title d-inline-block">Uses Client First</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                      <div class="card features__card mx-auto mb-3 d-inline-block">
+                        <div class="card-body d-inline-block">
+                          <h5 class="card-title d-inline-block">Uses Client First</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                      <div class="card features__card mx-auto mb-3 d-inline-block">
+                        <div class="card-body d-inline-block">
+                          <h5 class="card-title d-inline-block">Uses Client First</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                      <div class="card features__card mx-auto mb-3 d-inline-block">
+                        <div class="card-body d-inline-block">
+                          <h5 class="card-title d-inline-block">Uses Client First</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                      <div class="card features__card mx-auto mb-3 d-inline-block">
+                        <div class="card-body d-inline-block">
+                          <h5 class="card-title d-inline-block">Uses Client First</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <section class="carousel-s">
+            <div class="carousel__sec container">
+                <div class="carousel__header">
+                    <h2>
+                        What our clients say about us
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.
+                    </p>
+                </div>
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner carousel__cont">
+                      <div class="carousel-item active carousel__card">
+                        <h3>
+                            "The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."
+                        </h3>
+                        <div class="d-flex gap-lg-3">
+                            <img src="./assets/images/carousel.png" alt="">
+                            <span class="main__span">
+                                <span class="span-1">
+                                    Jenny Wilson
+                                </span>
+                                <span class="span-2">
+                                    Vice President
+                                </span>
+                            </span>
+                        </div>
+                      </div>
+                      <div class="carousel-item active carousel__card">
+                        <h3>
+                            "The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."
+                        </h3>
+                        <div class="d-flex gap-lg-3">
+                            <img src="./assets/images/carousel.png" alt="">
+                            <span class="main__span">
+                                <span class="span-1">
+                                    Jenny Wilson
+                                </span>
+                                <span class="span-2">
+                                    Vice President
+                                </span>
+                            </span>
+                        </div>
+                      </div>
+                      <div class="carousel-item active carousel__card">
+                        <h3>
+                            "The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."
+                        </h3>
+                        <div class="d-flex gap-lg-3">
+                            <img src="./assets/images/carousel.png" alt="">
+                            <span class="main__span">
+                                <span class="span-1">
+                                    Jenny Wilson
+                                </span>
+                                <span class="span-2">
+                                    Vice President
+                                </span>
+                            </span>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__sec container">
+            <div class="footer__sec1">
+                <img src="./assets/images/footer-logo.svg" alt="footer logo">
+                <h5>
+                    We are always open to discuss your project and improve your online presence.
+                </h5>
+                <div class="footer__contacts">
+                    <span class="email">
+                        <p>
+                            Email me at
+                        </p>
+                        <a href="mailto:aboulloh04062006@gmail.com">abdulloh04062008@gmial.com</a>
+                    </span>
+                    <span class="tell">
+                        <p>
+                            Call us
+                        </p>
+                        <a href="tel:+998998289056">+998 99 828 90 56</a>
+                    </span>
+                </div>
+            </div>
+            <div class="footer__sec2">
+                <h3>
+                    Lets Talk!
+                </h3>
+                <p>
+                    We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.
+                </p>
+                <a href="#">
+                    <img class="me-4" src="./assets/images/facebook.svg" alt="facebook icon">
+                </a>
+                <a href="#">
+                    <img class="me-4" src="./assets/images/twitter.svg" alt="twitter icon">
+                </a>
+                <a href="#">
+                    <img class="me-4" src="./assets/images/inta.svg" alt="intagram icon">
+                </a>
+                <a href="#">
+                    <img src="./assets/images/linkedin.svg" alt="linkedin icon">
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

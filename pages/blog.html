@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.min.css">
+</head>
+<body>
+    <nav class="navbar nav-2 navbar-expand-lg bg-body-tertiary fixed-top" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="../assets/images/Logo.svg" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-start"  tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                <img src="./assets/images/Logo.svg" alt="">
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body nav__offcanvas">
+              <ul class="navbar-nav gap-4 align-items-center justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item nav__links">
+                  <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item nav__links">
+                  <a class="nav-link " href="./about.html">About us</a>
+                </li>
+                <li class="nav-item nav__links">
+                    <a class="nav-link" href="./pricing.html">Pricing</a>
+                </li>
+                  <li class="nav-item nav__links">
+                    <a class="nav-link" href="./work.html">Work</a>
+                </li>
+                <li class="nav-item nav__links">
+                    <a class="nav-link active" href="#">Blog</a>   
+                </li>
+                <li class="nav-item">
+                    <a href="./contact.html">
+                        <button class="btn btn-outline-secondary nav__btn rounded-pill" type="submit">Contact us</button>
+                    </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <main class="blog__main">
+        <section class="environment">
+            <div class="environment__sec container">
+                <div class="environment__header">
+                    <h1 class="mb-3">
+                        A UX Case Study on Creating a Studious Environment for Students
+                    </h1>
+                    <p class="text-center">
+                        <a href="#">
+                            Andrew Jonson
+                        </a>
+                        Posted on 27th January 2021
+                    </p>
+                </div>
+                <div class="environment__body">
+                    <img class="mb-5" src="../assets/images/environment.png" alt="environment img">
+                    <p class="mb-3" class="">
+                        Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside.
+                    </p>
+                    <a class="text-decoration-none" href="#">
+                        Read more
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="blog">
+            <div class="blog__sec container">
+                <div class="blog__header">
+                    <h2 class="fs-1 fw-medium text-center mb-5">
+                        Our Blog
+                    </h2>
+                </div>
+                <div class="blog__row1 d-flex flex-column align-items-center gap-3 flex-xl-row justify-content-between  ">
+                    <div class="blog__card">
+                            <img class="mb-4" src="../assets/images/blog-img1.png" alt=""> <br>
+                            <span class="blog-card__date mb-3 d-inline-block">
+                                27 Jan 2021
+                            </span>
+                            <h3 class="mb-3">
+                                How one Webflow user grew his single person consultancy from $0-100K in 14 months
+                            </h3>
+                            <p>
+                                See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract
+                            </p>
+                            <a class="d-flex align-items-center gap-3 text-decoration-none fs-5 text-black" href="#">
+                                Read More
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="12" viewBox="0 0 25 12" fill="none">
+                                    <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" fill="#000000"/>
+                                </svg>
+                            </a>
+                    </div>
+                    <div class="blog__card">
+                            <img class="mb-4" src="../assets/images/blog-img1.png" alt=""> <br>
+                            <span class="blog-card__date mb-3 d-inline-block">
+                                27 Jan 2021
+                            </span>
+                            <h3 class="mb-3">
+                                How one Webflow user grew his single person consultancy from $0-100K in 14 months
+                            </h3>
+                            <p>
+                                See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract
+                            </p>
+                            <a class="d-flex align-items-center gap-3 text-decoration-none fs-5 text-black" href="#">
+                                Read More
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="12" viewBox="0 0 25 12" fill="none">
+                                    <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" fill="#000000"/>
+                                </svg>
+                            </a>
+                    </div>
+                    <div v class="blog__card">
+                        <img class="mb-4" src="../assets/images/blog-img1.png" alt=""> <br>
+                        <span class="blog-card__date mb-3 d-inline-block">
+                            27 Jan 2021
+                        </span>
+                        <h3 class="mb-3">
+                            How one Webflow user grew his single person consultancy from $0-100K in 14 months
+                        </h3>
+                        <p>
+                            See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract
+                        </p>
+                        <a class="d-flex align-items-center gap-3 text-decoration-none fs-5 text-black" href="#">
+                            Read More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="12" viewBox="0 0 25 12" fill="none">
+                                <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" fill="#000000"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="blog__row2 d-flex flex-column align-items-center gap-3 flex-xl-row justify-content-between  ">
+                    <div class="blog__card">
+                            <img class="mb-4" src="../assets/images/blog-img1.png" alt=""> <br>
+                            <span class="blog-card__date mb-3 d-inline-block">
+                                27 Jan 2021
+                            </span>
+                            <h3 class="mb-3">
+                                How one Webflow user grew his single person consultancy from $0-100K in 14 months
+                            </h3>
+                            <p>
+                                See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract
+                            </p>
+                            <a class="d-flex align-items-center gap-3 text-decoration-none fs-5 text-black" href="#">
+                                Read More
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="12" viewBox="0 0 25 12" fill="none">
+                                    <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" fill="#000000"/>
+                                </svg>
+                            </a>
+                    </div>
+                    <div class="blog__card">
+                            <img class="mb-4" src="../assets/images/blog-img1.png" alt=""> <br>
+                            <span class="blog-card__date mb-3 d-inline-block">
+                                27 Jan 2021
+                            </span>
+                            <h3 class="mb-3">
+                                How one Webflow user grew his single person consultancy from $0-100K in 14 months
+                            </h3>
+                            <p>
+                                See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract
+                            </p>
+                            <a class="d-flex align-items-center gap-3 text-decoration-none fs-5 text-black" href="#">
+                                Read More
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="12" viewBox="0 0 25 12" fill="none">
+                                    <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" fill="#000000"/>
+                                </svg>
+                            </a>
+                    </div>
+                    <div v class="blog__card">
+                        <img class="mb-4" src="../assets/images/blog-img1.png" alt=""> <br>
+                        <span class="blog-card__date mb-3 d-inline-block">
+                            27 Jan 2021
+                        </span>
+                        <h3 class="mb-3">
+                            How one Webflow user grew his single person consultancy from $0-100K in 14 months
+                        </h3>
+                        <p>
+                            See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract
+                        </p>
+                        <a class="d-flex align-items-center gap-3 text-decoration-none fs-5 text-black" href="#">
+                            Read More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="12" viewBox="0 0 25 12" fill="none">
+                                <path d="M24.5303 6.53033C24.8232 6.23744 24.8232 5.76256 24.5303 5.46967L19.7574 0.696699C19.4645 0.403806 18.9896 0.403806 18.6967 0.696699C18.4038 0.989593 18.4038 1.46447 18.6967 1.75736L22.9393 6L18.6967 10.2426C18.4038 10.5355 18.4038 11.0104 18.6967 11.3033C18.9896 11.5962 19.4645 11.5962 19.7574 11.3033L24.5303 6.53033ZM0 6.75H24V5.25H0V6.75Z" fill="#000000"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__sec container">
+            <div class="footer__sec1">
+                <img src="../assets/images/Logo.svg" alt="footer logo">
+                <h5>
+                    We are always open to discuss your project and improve your online presence.
+                </h5>
+                <div class="footer__contacts">
+                    <span class="email">
+                        <p>
+                            Email me at
+                        </p>
+                        <a href="mailto:aboulloh04062006@gmail.com">abdulloh04062008@gmial.com</a>
+                    </span>
+                    <span class="tell">
+                        <p>
+                            Call us
+                        </p>
+                        <a href="tel:+998998289056">+998 99 828 90 56</a>
+                    </span>
+                </div>
+            </div>
+            <div class="footer__sec2">
+                <h3>
+                    Lets Talk!
+                </h3>
+                <p>
+                    We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.
+                </p>
+                <a href="#">
+                    <img class="me-4" src="../assets/images/facebook.svg" alt="facebook icon">
+                </a>
+                <a href="#">
+                    <img class="me-4" src="../assets/images/twitter.svg" alt="twitter icon">
+                </a>
+                <a href="#">
+                    <img class="me-4" src="../assets/images/inta.svg" alt="intagram icon">
+                </a>
+                <a href="#">
+                    <img src="../assets/images/linkedin.svg" alt="linkedin icon">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
